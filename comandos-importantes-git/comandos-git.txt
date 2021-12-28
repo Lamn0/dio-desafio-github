@@ -1,0 +1,26 @@
+*Adicionar chava ssh:	
+	ssh-keygen -t ed25519 -C email@gmail.com - Gera o id_ed25519
+	*Copie o conteudo da chave pública e depois cole no github.
+	eval $(ssh-agent -s) - Inicializa o ssh agent.
+	ssh-add [caminho da chava privada] - Passa a chave privada para o agente ssh.
+
+git init - Inicia um repositório localmente.
+git config --global user.email "email@gmail.com" - Configura o seu email.
+git config --global user.name "nome" - Configura o seu username.
+git clone URL - Clona um repositório.
+
+git add [nome do arquivo] - Adiciona somente os arquivos selecionados ao staging area.
+git add . - Adiciona todas a modificações ao staging area.
+git add * - Adiciona somente as modificações do diretário atual.
+git commit -m "nome do commit" - Commita.
+
+git status - Mostra o status do working tree.
+
+git config --list - Lista todas as configurações.
+git config --global --unset [configuração] - Apaga essa configuração.
+
+git remote add origin [Caminho do repositório remoto] - Empurra o repositório local ao repositório remoto.
+git remote -v - Mostra uma lista de repositórios remotos cadastrados.
+git push -u apelido main - Empurra o repositório local para o remoto.
+git branch -M main
+git pull -
