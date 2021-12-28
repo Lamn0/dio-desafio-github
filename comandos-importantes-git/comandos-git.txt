@@ -23,4 +23,4 @@ git remote add origin [Caminho do repositório remoto] - Empurra o repositório 
 git remote -v - Mostra uma lista de repositórios remotos cadastrados.
 git push -u apelido main - Empurra o repositório local para o remoto.
 git branch -M main
-git pull -
+git pull 
