@@ -1,2 +1,2 @@
 # dio-desafio-github
-Desafio de projeto sobre git/github
+Desafio criado para fixar meus conhecimentos recém adquiridos.
